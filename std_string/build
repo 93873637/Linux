@@ -1,0 +1,5 @@
+#!/bin/bash
+
+g++ -std=c++11 -o test std_string.cpp
+./test
+rm test

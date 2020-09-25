@@ -1,0 +1,5 @@
+#!/bin/bash
+
+g++ -std=c++11 -o test filedirsort.cpp
+./test
+rm test

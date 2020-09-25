@@ -1,0 +1,6 @@
+/home/cloud/mojl/cuda_test/build/CMakeFiles/edit_cache.dir
+/home/cloud/mojl/cuda_test/build/CMakeFiles/rebuild_cache.dir
+/home/cloud/mojl/cuda_test/build/CMakeFiles/cuda_test.dir
+/home/cloud/mojl/cuda_test/build/cuda/bin/CMakeFiles/rebuild_cache.dir
+/home/cloud/mojl/cuda_test/build/cuda/bin/CMakeFiles/edit_cache.dir
+/home/cloud/mojl/cuda_test/build/cuda/bin/CMakeFiles/cube.dir

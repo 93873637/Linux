@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcube.a  CMakeFiles/cube.dir/cube_generated_deviceCap.cu.o CMakeFiles/cube.dir/cube_generated_threadDemo.cu.o CMakeFiles/cube.dir/cube_generated_censusDemo.cu.o
+/usr/bin/ranlib libcube.a

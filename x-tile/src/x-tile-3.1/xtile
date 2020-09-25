@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/tomli/projs/x-tile/src/x-tile-3.1
+./x-tile $1

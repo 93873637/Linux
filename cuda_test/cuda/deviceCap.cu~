@@ -1,0 +1,26 @@
+#include "./common.h"
+
+__global__ void listDevice(void)
+{
+    int deviceCount;
+    cudaGetDeviceCount(&deviceCount);
+
+    for (int i = 0; i < deviceCount; i++) {
+        cudaDeviceProp;
+	cudaGetDeviceProperties(deviceCount, &prop);
+
+
+        printf("device name : %s\n", prop.name);
+	printf("device major %d minor %d\n", prop.major, prop.minor);
+	printf("warp size %d\n", prop.warpSize);
+	printf("clock rate %d\n", prop.clockRate);
+
+    }
+
+}
+
+void deviceCap(void)
+{
+    listDevice();
+
+}

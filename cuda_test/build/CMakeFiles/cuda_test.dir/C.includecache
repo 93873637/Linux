@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cloud/mojl/cuda_test/./cuda/census_test.cuh
+
+/home/cloud/mojl/cuda_test/./cuda/deviceCap.cuh
+
+/home/cloud/mojl/cuda_test/./cuda/threadDemo.cuh
+
+/home/cloud/mojl/cuda_test/main.c
+stdio.h
+-
+./cuda/threadDemo.cuh
+/home/cloud/mojl/cuda_test/./cuda/threadDemo.cuh
+./cuda/census_test.cuh
+/home/cloud/mojl/cuda_test/./cuda/census_test.cuh
+./cuda/deviceCap.cuh
+/home/cloud/mojl/cuda_test/./cuda/deviceCap.cuh
+
